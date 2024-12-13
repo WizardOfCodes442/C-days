@@ -1,0 +1,3 @@
+mutex_lock:
+    TSL REGISTER, MUTEX  |copy mutex to register and set mutex to 1
+    CMP REGISTER,#0 
